@@ -24,7 +24,7 @@ export class App extends Component {
     );
 
     if (hasDublicates) {
-      alert(`${name} is already in contact`);
+      alert(`${name} is already in contact!`);
       return;
     }
 
